@@ -1,6 +1,6 @@
 # LinguaTone – Sinhala ↔ English Tone Converter
 
-![LinguaTone Logo](./logo.png)
+![LinguaTone Logo](./public/St.png)
 
 **Translate. Refine. Sound Natural.**
 
