@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LinguaTone – Sinhala ↔ English Tone Converter
 
-## Getting Started
+![LinguaTone Logo](./logo.png)
 
-First, run the development server:
+**Translate. Refine. Sound Natural.**
+
+LinguaTone is a **mobile-first AI-powered web app** built with **Next.js**, designed to convert text between **Sinhala and English** while adjusting the tone to **formal, casual, or corporate styles**. It's fully **free**, serverless, and deployable on **Vercel**.
+
+---
+
+## 🚀 Features
+
+- 🔄 **Sinhala ↔ English translation**
+- 🎯 **Tone transformation**: Formal, Casual, Corporate
+- ⚡ **Fast serverless AI responses**
+- 📱 **Mobile-first, responsive UI**
+- 🪶 Minimal, clean interface with **glassmorphism design**
+- 🔄 Copy & Clear buttons for easy usage
+- 🌟 Language detection badge (auto detects Sinhala or English)
+- 🕹️ Loading animations for premium UX
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js (App Router)**
+- **TypeScript**
+- **Tailwind CSS**
+- **OpenRouter / Arcee AI Trinity Mini** for AI processing
+- **Vercel** for serverless deployment
+
+---
+
+## 💡 How It Works
+
+1. **Input text** in Sinhala or English.
+2. **Select tone** from Formal, Casual, or Corporate.
+3. **Press Convert** – AI translates and rewrites your text.
+4. **Copy or reuse** the output for emails, documents, or social media.
+
+> Example:
+>
+> Input: `"Send me the file today"`  
+> Tone: `Corporate`  
+> Output (Sinhala): `"කරුණාකර අද දින ඇතුළත අදාල ගොනුව එවීමට කටයුතු කරන්න."`
+
+---
+
+## 🎨 UI / UX Highlights
+
+- Gradient app icon (Indigo → Purple) with “LT” monogram
+- Glassmorphism cards for input/output
+- Loading spinner + skeleton animation for smooth feedback
+- Fully mobile-optimized layout
+
+---
+
+## ⚡ Deployment
+
+1. Clone the repo:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/linguatone.git
+cd linguatone
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
